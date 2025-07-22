@@ -1,12 +1,24 @@
 # End-to-End YouTube Semantic Search Engine with Embedding-Based Retrieval
 
-## Overview
+## Project Description
 
 This project implements a **production-ready semantic search engine** for YouTube video content using state-of-the-art NLP techniques and modern MLOps practices. The system leverages sentence embeddings to enable intelligent video discovery beyond traditional keyword matching, allowing users to find relevant videos based on semantic similarity rather than exact text matches.
 
 The solution addresses the challenge of content discovery in large video repositories by combining **neural information retrieval** with **scalable deployment infrastructure**. Built for [Statquest's](https://www.youtube.com/@statquest) YouTube channel, this system demonstrates enterprise-level ML engineering practices including automated data pipelines, containerized microservices, and cloud deployment.
 
 **Key Value Proposition**: Transform unstructured video content into searchable, semantically-aware knowledge base with sub-second query response times.
+
+## Table of Contents
+
+- [Features](#features)
+- [System Architecture](#system-architecture)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Setup \& Installation Instructions](#setup--installation-instructions)
+- [How It Works (End-to-End Flow)](#how-it-works-end-to-end-flow)
+- [API Usage](#api-usage)
+- [Deployment](#deployment)
+- [Sample Output](#sample-output)
 
 ## Features
 
