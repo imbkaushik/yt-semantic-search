@@ -47,10 +47,15 @@ The solution addresses the challenge of content discovery in large video reposit
                        │ (Sentence-BERT)  │
                        └──────────────────┘
                                 │
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Frontend      │────│   FastAPI App    │────│ Search Engine   │
-│   (Gradio)      │    │ (RESTful API)    │    │ (Manhattan Dist)│
-└─────────────────┘    └──────────────────┘    └─────────────────┘
+                       ┌──────────────────┐
+                       │   FastAPI App    │
+                       │ (RESTful API)    │
+                       └──────────────────┘
+                                │
+                       ┌──────────────────┐
+                       │  Search Engine   │
+                       │ (Manhattan Dist) │
+                       └──────────────────┘
 ```
 
 
