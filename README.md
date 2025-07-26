@@ -38,20 +38,23 @@ The solution addresses the challenge of content discovery in large video reposit
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   YouTube API   │────│  Data Pipeline   │────│  Vector Store   │
+│   YouTube API   │───▶│  Data Pipeline   │───▶│  Vector Store   │
 │                 │    │  (ETL Process)   │    │   (Parquet)     │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
                                 │
+                                ▼
                        ┌──────────────────┐
                        │  Embedding Model │
                        │ (Sentence-BERT)  │
                        └──────────────────┘
                                 │
+                                ▼
                        ┌──────────────────┐
                        │   FastAPI App    │
                        │ (RESTful API)    │
                        └──────────────────┘
                                 │
+                                ▼
                        ┌──────────────────┐
                        │  Search Engine   │
                        │ (Manhattan Dist) │
